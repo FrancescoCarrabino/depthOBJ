@@ -1,6 +1,6 @@
 <img src="logo_con_scritta.png" width=900 /> 
 
-    A syntethic Dataset containing 19440 depth maps divided in 54 categories, with one representative 3D mesh model in .OBJ format for each category.
+*A syntethic Dataset containing 19440 depth maps divided in 54 categories, with one representative 3D mesh model in .OBJ format for each category.*
 
 # **Why depthOBJ**
 
@@ -184,6 +184,22 @@ Here an example running on Google Colaboratory.</br>
 
 Now, the dataset is ready to be used to train Neural Networks' models. 
 
-## Images and Representative Models
+# Images and Representative Models
 The dataset is composed by 19440 - coloured just for the sake of it - depth maps, with one representative 3D mesh collected from [ShapeNet](https://www.shapenet.org/) Core V2 dataset, from which we also collected the meshes to render out the depth maps. </br>
-The 
+The representative meshes are selected following these criteria:
+> - **generality:** the idea behind representativity can be build around the common image that comes to mind usually when thinking about an object. While different designs are often found around us, a chair remains a chair and a bed remains a bed. Choosing our representative mesh, we tried to keep faith to this idea of generality.
+> - **size:** we tried to limit the size of our files in a way that they could still be very detailed, but also not too heavy. 
+> - **topology:** a clean topology is crucial for the quality of the final application and was also a big focus for allowing future applications that could act on feature-based deformation and transformation.
+
+***
+
+3D mesh .OBJ             |  depth map
+:------------------------:|:-------------------------:
+<img src="car.gif" /> | <img src=".\Images\car\2-car (30).png"/>
+|
+
+# Grow the Dataset
+The nature of `depthOBJ` is to be easy and ready to use, but also to be a starting point for future expansion. The dataset has been generated completely on [Blender](https://www.blender.org/) and can be expanded through the batch-rendering script we made available. 
+
+# Thanks
+Special thanks go to professor Lauro Snidaro for supervising and following with unestimable competence and presence all the work that `depthOBJ` required. 
