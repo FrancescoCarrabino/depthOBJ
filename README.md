@@ -138,7 +138,7 @@ As said, the taxonomy represents one of the most defining aspects of the dataset
 
 </p>
 </details>
-</br>
+
 
 # Usage 
 Using 'depthOBJ' is fast and easy. </br>
