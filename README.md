@@ -11,7 +11,7 @@ Even if the capabilities of RGB images are astounding, the need to explore depth
 ## Taxonomy
 As said, the taxonomy represents one of the most defining aspects of the dataset. Thought to be easy to understand and implement, the dataset is ready to be imported in most of the applcations that run on Keras. 
 
-`depthOBJ` 
+
 <details><summary>\depthOBJ</summary>
 <p>
     <details><summary>\Images</summary>
