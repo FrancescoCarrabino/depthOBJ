@@ -196,7 +196,6 @@ The representative meshes are selected following these criteria:
 3D mesh .OBJ             |  depth map
 :------------------------:|:-------------------------:
 <img src="car.gif" /> | <img src=".\Images\car\2-car (30).png"/>
-|
 
 # Grow the Dataset
 The nature of `depthOBJ` is to be easy and ready to use, but also to be a starting point for future expansion. The dataset has been generated completely on [Blender](https://www.blender.org/) and can be expanded through the batch-rendering script we made available. 
