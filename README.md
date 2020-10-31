@@ -5,11 +5,11 @@
 # **Why depthOBJ**
 
 While hundreds of thousand of datasets for coloured RGB images are available on the web, very few and small datasets dedicated to depth maps are actually available for researchers and amateurs. 
-Even if the capabilities of RGB images are astounding, the need to explore depth maps, images describing the depth of a scene or an object, is absolutely trivial. Moreover for the fact that this kind of images can be compressed into a single channel, being able to pair them with their corresponding RGB counterparts, opens up to RGB-D images, a powerful yet not-that-much explored tool. </br>
+Even if the capabilities of RGB images are astounding, the need to explore depth maps, images describing the depth of a scene or an object, is absolutely trivial. Moreover the fact that this kind of images can be compressed into a single channel, being able to pair them with their corresponding RGB counterparts, opens up to RGB-D images, a powerful yet not-that-much explored tool. </br>
 `depthOBJ` is also engineered to be very easily implementable in Deep Learning applications, thanks to it's easy-to-read taxonomy, studied to be ready to use with Keras' `DataGenerators`.
 
 ## Taxonomy
-As said, the taxonomy represents one of the most defining aspects of the dataset. Thought to be easy to understand and implement, the dataset is ready to be imported in most of the applcations that run on Keras. 
+As said, the taxonomy represents one of the most defining aspects of the dataset. Thought to be easy to understand and implement, the dataset is ready to be imported in most of the applcations that run on Keras or PyTorch3D. 
 
 
 <details><summary>\depthOBJ</summary>
@@ -182,14 +182,14 @@ Here an example running on Google Colaboratory.</br>
                                                 subset = 'validation')
     ```
 
-Now, the dataset is ready to be used to train Neural Networks' models. 
+Now the dataset is ready to be used to train Neural Networks models. 
 
 # Images and Representative Models
-The dataset is composed by 19440 - coloured just for the sake of it - depth maps, with one representative 3D mesh collected from [ShapeNet](https://www.shapenet.org/) Core V2 dataset, from which we also collected the meshes to render out the depth maps. </br>
+The dataset is composed by 19440 depth maps, with one representative 3D mesh collected from [ShapeNet](https://www.shapenet.org/) Core V2 dataset, from which we also collected the meshes to render out the depth maps. </br>
 The representative meshes are selected following these criteria:
-> - **generality:** the idea behind representativity can be build around the common image that comes to mind usually when thinking about an object. While different designs are often found around us, a chair remains a chair and a bed remains a bed. Choosing our representative mesh, we tried to keep faith to this idea of generality.
+> - **generality:** the idea behind representativity can be build around the common image that comes to mind when thinking about an object. While different designs are often found around us, a chair remains a chair and a bed remains a bed. Choosing our representative mesh, we tried to keep faith to this idea of generality.
 > - **size:** we tried to limit the size of our files in a way that they could still be very detailed, but also not too heavy. 
-> - **topology:** a clean topology is crucial for the quality of the final application and was also a big focus for allowing future applications that could act on feature-based deformation and transformation.
+> - **topology:** a clean topology is crucial for the quality of the final application and was also a major factor allowing future applications that could act on feature-based deformation and transformation.
 
 ***
 
@@ -199,6 +199,3 @@ The representative meshes are selected following these criteria:
 
 # Grow the Dataset
 The nature of `depthOBJ` is to be easy and ready to use, but also to be a starting point for future expansion. The dataset has been generated completely on [Blender](https://www.blender.org/) and can be expanded through the batch-rendering script we made available. 
-
-# Thanks
-Special thanks go to professor Lauro Snidaro for supervising and following with unestimable competence and presence all the work that `depthOBJ` required. 
