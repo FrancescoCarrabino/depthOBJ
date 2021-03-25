@@ -199,3 +199,12 @@ The representative meshes are selected following these criteria:
 
 # Grow the Dataset
 The nature of `depthOBJ` is to be easy and ready to use, but also to be a starting point for future expansion. The dataset has been generated completely on [Blender](https://www.blender.org/) and can be expanded through the batch-rendering script we made available. 
+
+
+# Paper and citations
+The [research paper](https://link.springer.com/chapter/10.1007%2F978-3-030-68790-8_49) has been published by Springer in the Pattern Recognition. ICPR International Workshops and Challenges book.</br>
+## If you use our dataset and want to cite us:
+Carrabino F., Snidaro L. (2021) DepthOBJ: A Synthetic Dataset for 3D Mesh Model Retrieval.</br>
+In: Del Bimbo A. et al. (eds) Pattern Recognition. ICPR International Workshops and Challenges. ICPR 2021. Lecture Notes in Computer Science, vol 12662.</br>
+Springer, Cham.</br>
+https://doi.org/10.1007/978-3-030-68790-8_49
