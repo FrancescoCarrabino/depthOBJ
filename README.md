@@ -203,7 +203,7 @@ The nature of `depthOBJ` is to be easy and ready to use, but also to be a starti
 
 # Paper and citations
 The [research paper](https://link.springer.com/chapter/10.1007%2F978-3-030-68790-8_49) has been published by Springer in the Pattern Recognition. ICPR International Workshops and Challenges book.</br>
-## If you use our dataset and want to cite us:
+### If you use our dataset and want to cite us:
 Carrabino F., Snidaro L. (2021)</br>
 DepthOBJ: A Synthetic Dataset for 3D Mesh Model Retrieval.</br>
 In: Del Bimbo A. et al. (eds) Pattern Recognition. ICPR International Workshops and Challenges. ICPR 2021. Lecture Notes in Computer Science, vol 12662.</br>
